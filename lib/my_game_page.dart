@@ -24,7 +24,7 @@ class _MyGameState extends State<MyGame> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFEFEFEF),
+      backgroundColor: const Color.fromARGB(255, 255, 223, 223),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
